@@ -136,3 +136,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+        
+
+        # ✅ Always print reflection test result
+        print(f"Testing {param_key} => {payload} | in response? {'YES' if payload in response.text else 'NO'}")
